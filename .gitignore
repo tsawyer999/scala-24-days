@@ -1,0 +1,53 @@
+# Scala specific excludes
+*.class
+*.log
+*.cache
+*.settings/
+*.project
+*.idea/
+*.iml
+*.iws
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Scala/Play framework specific excludes
+/logs
+/tmp
+
+# SBT specific excludes
+/target
+/project/target
+/project/project
+
+# Maven specific excludes
+*.log
+target/
+
+# Gradle specific excludes
+.gradle
+build/
+
+# Eclipse specific excludes
+.metadata
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA specific excludes
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# VS Code specific excludes
+.vscode/
+
+# MacOS specific excludes
+.DS_Store
+
+# Windows specific excludes
+Thumbs.db
+.idea/
