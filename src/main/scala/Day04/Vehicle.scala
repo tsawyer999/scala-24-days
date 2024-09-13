@@ -4,11 +4,11 @@ class Vehicle {
 
   private var price: Int = 0
 
-  def GetPrice(): Int = {
-    return this.price
+  def getPrice: Int = {
+    this.price
   }
 
-  def SetPrice(price: Int): Unit = {
+  def setPrice(price: Int): Unit = {
     this.price = price
   }
 }
